@@ -1,0 +1,7 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://apikl.ai",
+    "ANTHROPIC_AUTH_TOKEN": "sk-your-key",
+    "ANTHROPIC_MODEL": "claude-sonnet-5-5"
+  }
+}

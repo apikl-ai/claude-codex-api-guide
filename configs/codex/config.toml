@@ -1,0 +1,10 @@
+# ~/.codex/config.toml（Windows: %USERPROFILE%\.codex\config.toml）
+# 密钥不写在这里，从环境变量 OPENAI_API_KEY 读取。
+model = "gpt-5.6-sol"
+model_provider = "apikl"
+
+[model_providers.apikl]
+name = "apikl"
+base_url = "https://apikl.ai/v1"   # OpenAI 兼容协议，要带 /v1
+env_key = "OPENAI_API_KEY"
+wire_api = "responses"              # 新版 Codex 只支持 responses
