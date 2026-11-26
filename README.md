@@ -18,6 +18,8 @@
 
 中国大陆不在 Anthropic 官方 API 的[支持地区列表](https://www.anthropic.com/legal/supported-regions)里，所以国内开发者一般有三条路：官方 API（需要主体和付款方式都符合官方政策）、云平台上的 Claude（如 AWS Bedrock、Google Vertex AI，同样有地区和资格要求），或第三方 API 服务（常说的「中转站」）。第三方服务能用人民币付款、国内网络可直接访问，代价是请求多经过一家公司，需要你自己核实它靠不靠谱（见下文「怎么判断」）。apikl.ai 属于第三种。
 
+三种方式的完整对比、付款方式和接入步骤见 [Claude API 国内怎么用（中文）](https://docs.apikl.ai/claude-api-cn) · [英文版](claude-api-in-china.md)。
+
 ### 能用支付宝、微信付款吗？
 
 apikl.ai 支持支付宝、微信支付，也支持银行卡（Stripe）和 USDT。按实际用量从人民币余额里扣费，没有月租；各模型单价以[模型广场](https://apikl.ai/model-plaza)为准。

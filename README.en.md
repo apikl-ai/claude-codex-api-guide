@@ -18,6 +18,8 @@ This repository contains:
 
 Mainland China is not on Anthropic's [supported regions list](https://www.anthropic.com/legal/supported-regions). The options are: the official API (your entity and payment method must meet Anthropic's policy), Claude on a cloud platform such as AWS Bedrock or Google Vertex AI (also subject to region and eligibility rules), or a third-party API service (a "relay"). A relay lets you pay in RMB and reach it from domestic networks; the trade-off is that your requests pass through one more company, which you need to vet yourself. apikl.ai is a service of the third kind.
 
+Full comparison, payment options and step-by-step setup: [Claude API in China (2026)](claude-api-in-china.md).
+
 ### Can I pay with Alipay or WeChat Pay?
 
 apikl.ai accepts Alipay and WeChat Pay, plus cards (via Stripe) and USDT. Usage is deducted from an RMB balance, with no monthly fee. Per-model prices are listed on the [model plaza](https://apikl.ai/model-plaza).
