@@ -1,6 +1,6 @@
 # Claude API in China (2026): official API vs. cloud vs. relay, and paying with Alipay or WeChat Pay
 
-[← Back to README](README.en.md) · [中文版](https://docs.apikl.ai/claude-api-cn) · Maintained by [apikl.ai](https://apikl.ai) · Facts checked 2026-11-26
+[← Back to README](README.en.md) · [Web version](https://apikl.ai/claude-api-in-china) · [中文版](https://docs.apikl.ai/claude-api-cn) · Maintained by [apikl.ai](https://apikl.ai) · Facts checked 2026-11-28
 
 **Short answer:** Anthropic does not offer the Claude API in mainland China or Hong Kong, and the official API only takes credit cards billed in USD. If you are a developer in China and want to pay with **Alipay or WeChat Pay**, the practical route is a third-party API service (often called an *API relay*). With apikl.ai, for example: top up an RMB balance with Alipay / WeChat Pay → create a key in a Claude group → set the base URL to `https://apikl.ai` (Claude Code and the Anthropic SDK, **no** `/v1`) or `https://apikl.ai/v1` (OpenAI-compatible clients such as Cursor or Cline).
 
@@ -79,7 +79,8 @@ No Claude Pro / Max subscription and no Anthropic account are needed. Persistent
 |---|---|
 | `claude-opus-5-5` | Claude Opus 5.5 — strongest, for complex coding and long tasks |
 | `claude-sonnet-5-5` | Claude Sonnet 5.5 — balanced speed and price; a good default |
-| `claude-fable-5-1` | Claude Fable 5.1 |
+| `claude-fable-5-2` | Claude Fable 5.2 |
+| `claude-haiku-5-5` | Claude Haiku 5.5 — fast and low-cost |
 
 Availability and prices differ by group; the [model plaza](https://apikl.ai/model-plaza) is the source of truth.
 
